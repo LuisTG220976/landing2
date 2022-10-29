@@ -1,1 +1,73 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main {
+  position: relative;
+  min-height: 100vh;
+  background: radial-gradient(#F5B407, #E54F33);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 100px;
+}
+.main header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+.main header .logokikiri {
+  max-width: 120px;
+}
+.main header .navigation {
+  display: flex;
+}
+.main header .navigation li {
+  list-style: none;
+}
+.main header .navigation li a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.main .content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .content .text {
+  width: 100%;
+  max-width: 600px;
+}
+.main .content .text h2 {
+  color: #1C1D1F;
+  font-size: 5em;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+.main .content .text .btn {
+  position: relative;
+  display: inline-block;
+  padding: 20px 50px;
+  background-color: #F5B407;
+  color: #333;
+  font-size: 1.1em;
+  font-weight: 500;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: 0.25s;
+}
+.main .content .text .btn:hover {
+  letter-spacing: 1px;
+}/*# sourceMappingURL=style.css.map */
