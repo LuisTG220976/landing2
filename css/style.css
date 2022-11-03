@@ -55,6 +55,17 @@
   font-size: 5em;
   font-weight: 300;
   line-height: 1.5em;
+  margin: 20px 0;
+}
+.main .content .text h2 span {
+  font-weight: 700;
+}
+.main .content .text p {
+  color: #D4D4D4;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 20px 0;
 }
 .main .content .text .btn {
   position: relative;
@@ -70,4 +81,20 @@
 }
 .main .content .text .btn:hover {
   letter-spacing: 1px;
+}
+.main .content .content-img {
+  position: relative;
+}
+.main .content .content-img .imgpollo {
+  display: block;
+}
+.main .content .content-img .imgpollo img {
+  width: 100%;
+  max-width: 600px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -55,6 +55,17 @@
                 font-size: 5em;
                 font-weight: 300;
                 line-height: 1.5em;
+                margin: 20px 0;
+                span{
+                    font-weight: 700;
+                }
+            }
+            p{
+                color: #D4D4D4;
+                font-weight: 400;
+                font-size: 1.1em;
+                line-height: 1.5em;
+                margin:20px 0;
             }
             .btn{
                 position: relative;
@@ -69,10 +80,27 @@
                 transition: 0.25s;
                 &:hover{
                     letter-spacing: 1px;
+
                 }
 
             }
         }
+        .content-img{
+            position: relative;
+            .imgpollo{                
+                display: block;
+                img{
+                    width: 100%;
+                    max-width: 600px;
+                }
+            }
+        }
 
+    }
+}
+@media (max-width:600px)
+{
+    .main{
+        padding: 20px ;
     }
 }
