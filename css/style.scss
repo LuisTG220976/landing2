@@ -117,7 +117,6 @@
                             transform: translateY(-5px)
                         }
                     }
-
                 }
             }
         }
@@ -127,5 +126,13 @@
 {
     .main{
         padding: 20px ;
+    }
+    .footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        .sci{
+            margin-top: 40px;
+            margin-right: -80px;
+        }
     }
 }

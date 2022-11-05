@@ -122,4 +122,12 @@
   .main {
     padding: 20px;
   }
+  .footer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .footer .sci {
+    margin-top: 40px;
+    margin-right: -80px;
+  }
 }/*# sourceMappingURL=style.css.map */
